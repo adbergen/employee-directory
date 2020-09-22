@@ -42,7 +42,7 @@ const DataArea = () => {
         } else if (heading === "dob") {
           return a[heading].age - b[heading].age;
         } else {
-          return a[heading].localCompare(b[heading]);
+          return a[heading].localeCompare(b[heading]);
         }
       } else {
         if (a[heading] === undefined) {
