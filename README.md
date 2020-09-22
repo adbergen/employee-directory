@@ -20,9 +20,12 @@ This is an employee directory application.</p>
     </a>
     <span> | </span>
     <a href="https://github.com/adbergen/employee-directory">
-      Github
+      Github Repository
     </a>
-
+<span> | </span>
+<a href="https://adbergen.github.io/employee-directory/">
+      Github Pages
+    </a>
   </h4>
 </div>
 
