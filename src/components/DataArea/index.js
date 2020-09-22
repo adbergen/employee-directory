@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import DataTable from "../../DataTable";
+import DataTable from "./../DataTable";
+import API from "../../utils/API";
 import DataAreaContext from "../../utils/DataAreaContext";
-import API from "../utils/API";
+
 import "./style.css";
 
 const DataArea = () => {
@@ -10,7 +11,7 @@ const DataArea = () => {
     order: "descend",
     filteredUsers: [],
     headings: [
-      { name: "image", width: "10%", order: "descend" },
+      { name: "Image", width: "10%", order: "descend" },
       { name: "name", width: "10%", order: "descend" },
       { name: "phone", width: "20%", order: "descend" },
       { name: "email", width: "20%", order: "descend" },
@@ -72,7 +73,7 @@ const DataArea = () => {
 
   const handleSearchChange = (event) => {
     const filter = event.target.value;
-    const filteredList = develperState.users.filter((item) => {
+    const filteredList = developerState.users.filter((item) => {
       let values =
         item.name.first.toLowerCase() + " " + item.name.last.toLowerCase();
       console.log(filter, values);

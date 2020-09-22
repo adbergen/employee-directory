@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import DataBody from "../DataBody/index";
 import DataAreaContext from "../../utils/DataAreaContext";
 import "./style.css";
