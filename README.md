@@ -26,7 +26,7 @@ This is an employee directory application.</p>
   </h4>
 </div>
 
-![Screenshot of application demo](public/images//demo.png)
+![Screenshot of application demo](public/demo.png)
 
 <hr>
 
