@@ -53,7 +53,7 @@ Using npm:
 
 ## Usage
 
-<p> This application is designed to allow a user to view, create, and track daily workouts. Multiple Exercises in a workout can be logged each day. The name, type, weight, sets, reps, distance traveled, duration of excercise, can also be logged.
+<p> This application is designed to allow an employee or manager to view an employee directory. When the user loads the page, a table of employees is displayed allowing the user to sort by name, phone, email, or dob. The user can also filter by name via the search field.
 
 <hr>
 
@@ -62,8 +62,7 @@ Using npm:
 <ul>
 <li>HTML, CSS, Bootstrap</li>
 <li>Javascript, jQuery</li>
-<li>MongoDB</li>
-<li>React, node.js, Express, Seqeulize</li>
+<li>React, node.js, Express</li>
 <li>GitHub, Heroku</li>
 </ul>
 
