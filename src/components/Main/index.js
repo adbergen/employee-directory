@@ -1,9 +1,10 @@
 import React from "react";
+import DataArea from "/DataArea";
 import "./style.css";
 
-function Header() {
+function Main() {
   return (
-    <div className="main">
+    <div>
       <DataArea />
     </div>
   );
