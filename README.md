@@ -15,10 +15,6 @@ Employee Directory
 This is an employee directory application.</p>
 <div align="center"><a name="menu"></a>
   <h4>
-    <a href="https://employ-directory.herokuapp.com/">
-      Heroku
-    </a>
-    <span> | </span>
     <a href="https://github.com/adbergen/employee-directory">
       Github Repository
     </a>
@@ -66,7 +62,7 @@ Using npm:
 <li>HTML, CSS, Bootstrap</li>
 <li>Javascript, jQuery</li>
 <li>React, node.js, Express</li>
-<li>GitHub, Heroku</li>
+<li>GitHub</li>
 </ul>
 
 <hr>
