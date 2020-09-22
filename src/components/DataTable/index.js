@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import DataBody from "../DataBody/index";
+import DataBody from "../DataBody";
 import DataAreaContext from "../../utils/DataAreaContext";
 import "./style.css";
 
@@ -14,7 +14,7 @@ const DataTable = () => {
       >
         <thead>
           <tr>
-            {oncontextmenu.developerState.headings.map(({ name, width }) => {
+            {context.developerState.headings.map(({ name, width }) => {
               return (
                 <th
                   className="col"
