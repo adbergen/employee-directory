@@ -46,7 +46,7 @@ Using npm:
 <br>
 <br>
 
-    npm install
+    npm install && npm start
 
 <hr>
 
@@ -60,8 +60,9 @@ Using npm:
 
 <ul>
 <li>HTML, CSS, Bootstrap</li>
+<li>React</li>
 <li>Javascript, jQuery</li>
-<li>React, node.js, Express</li>
+<li>node.js, Express</li>
 <li>GitHub</li>
 </ul>
 
