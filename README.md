@@ -62,7 +62,7 @@ Using npm:
 <li>HTML, CSS, Bootstrap</li>
 <li>React</li>
 <li>Javascript, jQuery</li>
-<li>node.js, Express</li>
+<li>node.js, Express, Axios</li>
 <li>GitHub</li>
 </ul>
 
